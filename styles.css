@@ -71,13 +71,13 @@ header img {
     border-bottom-right-radius: 50px;
     display: block;
     font-weight: 800;
-    color: yellow;
-    border: 3px solid yellow;
+    color: gold;
+    border: 3px solid gold;
 }
 
 .button:hover {
-    color: yellow;
-    border: 3px solid yellow;
+    color: gold;
+    border: 3px solid gold;
 }
 .card-container {
     background-color: white;
