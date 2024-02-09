@@ -128,8 +128,10 @@ header img {
 }
 h3{
     color: rgb(14, 107, 107);
-    margin-top: 90px;
+    margin-top: 110px;
     padding-right: 200px;
+    inline-size: max-content;
+    margin-left: 50px;
 }
 
 .user-image {
@@ -168,14 +170,12 @@ h3{
     justify-self: left;
     color: gold;
 } */ 
-.user-credentials h3.card-description {
- display: inline;
-}
 .user-credentials h4.card-description {
     font-size: 14px;
     justify-self: left;
     color: gold;
     margin-bottom: 0;
+    margin-left: 55px;
   }
   
 .user-credentials p.card-description {
@@ -184,6 +184,7 @@ h3{
     justify-self: left;
     color: gold;
     margin-top: 0;
+    margin-left: 55px;
   }
 .timings {
     position: absolute;
