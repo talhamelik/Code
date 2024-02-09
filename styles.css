@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: linear-gradient(to right, rgb(46, 122, 172) , rgb(134, 134, 134));
+    background-image: linear-gradient(to right, rgb(0, 147, 175) , #002c5c);
     color: #fff;
 }
 
@@ -10,12 +10,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color:linear-gradient(to right, rgb(46, 122, 172) , rgb(134, 134, 134));
+    background-color:linear-gradient(to right, rgb(0, 147, 175) , #002c5c));
 }
 .login-button {
     padding: 10px 20px;
     margin-bottom: 50px;
-    background-color: #4CAF50;
+    background-color: #002c5c;
     color: white;
     border: none;
     border-radius: 4px;
