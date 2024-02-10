@@ -98,7 +98,6 @@ header img {
     margin-top: -50px;
     margin-left: 60px;
     border-radius: 30px;
-    margin-right: 30px;
 }
 .text,
 .card-heading h1 {
@@ -107,17 +106,18 @@ header img {
 
 .text {
     font-size: 23px;
-  margin-right: 10px;
+  margin-right: 5px;
   font-weight: bold;
+  padding-left: 5px;
 }
 .child{
-    width: 50px;
+    width: 55px;
     border-radius: 90%;
     z-index: 0px;
     margin-left: 280px;
     position: absolute;
     margin-top: 25px;
-    height: 50px;
+    height: 55px;
 }
 .card {
     box-shadow: 0px 0px 2px 2px rgb(189, 188, 188);
