@@ -98,6 +98,7 @@ header img {
     margin-top: -50px;
     margin-left: 60px;
     border-radius: 30px;
+    margin-right: 20px;
 }
 .text,
 .card-heading h1 {
@@ -131,8 +132,6 @@ header img {
     margin-top: 25px;
 
 }
-
-
 .user-image {
     width: 70px;
     border: 1px solid gold;
