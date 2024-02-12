@@ -154,14 +154,20 @@ header img {
     margin-top: 3px;
     margin-left: 18px;
 }
-.fa-circle-small {
+.status-dot {
   position: absolute;
-  top: 50%;
-  right: -10px;
-  transform: translateY(-50%);
-  color: gold;
-  z-index: 1; /* Adjust the value as needed */
+  top: 3px;
+  right: 3px;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(235, 231, 21);
+  border-radius: 50%;
+  z-index: 1;
 }
+.user-image {
+  position: relative;
+}
+
 .star-rating {
     position: absolute;
     font-size: 12px;
