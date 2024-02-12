@@ -128,7 +128,7 @@ header img {
     height: 55px;
 }
 .card {
-    box-shadow: 0px 0px 2px 2px rgb(189, 188, 188);
+    box-shadow: 0px 0px 6px 4px rgb(139, 137, 137);
     border: 2px solid rgb(252, 252, 252);
     border-radius: 15px;
     display: flex;
