@@ -86,11 +86,14 @@ header img {
     background-color: white;
     display: flex;
     flex-wrap: wrap; /* Allow cards to wrap to the next line */
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start; /* Align cards to the top */
     overflow-y: auto; /* Enable vertical scrolling */
-    height: 390px;
+    height: 75vh;
     border-radius: 30px;
+    column-gap: 50px;
+    row-gap: 30px;
+    padding-left: 30px;
 }
 .card-container::-webkit-scrollbar {
     width: 10px; /* for vertical scrollbars */
@@ -118,22 +121,23 @@ header img {
 .text {
   font-size: 23px;
   margin-right: 5px;
-  font-weight: bold;
   padding-left: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.steth .fa-stethoscope {
+.steth{
   padding: 10px;
   font-size: 3rem;
   position: absolute;
   color: gold;
   background-color: white;
-  border-radius: 50px;
+  border-radius: 50%;
   left: 285px;
+  overflow: hidden;
 }
 
 .card {
-    box-shadow: 0px 0px 3px 2px rgb(139, 137, 137);
+    box-shadow: 0px 0px 2px 2px rgb(201, 196, 196);
     border: 2px solid rgb(252, 252, 252);
     border-radius: 15px;
     display: flex;
@@ -201,7 +205,7 @@ header img {
 .education {
     font-size: 2.5vh;
     justify-self: left;
-    color: gold;
+    color: rgb(223, 195, 36);
     margin-bottom: 0px; 
     padding-left: 5px;
   
@@ -212,7 +216,7 @@ header img {
     padding-right: 90px;
     justify-self: left;
     padding-left: 5px;
-    color: gold;
+    color: rgb(223, 195, 36);
     margin-top: 0;
   }
 .timings {
